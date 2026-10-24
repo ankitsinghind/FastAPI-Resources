@@ -20,19 +20,17 @@ This repository is a structured FastAPI course. Each module introduces one layer
 ### 2. Clone and enter the course
 
 ```powershell
-git clone https://github.com/ankitsinghind/FASTAPI.git
-cd FASTAPI
+https://github.com/ankitsinghind/.git
+cd FastAPI-Resources
 ```
 
 ### 3. Create an environment and install FastAPI
 
 ```powershell
 python -m venv .venv
-.venv\Scripts\Activate.ps1
+.venv\Scripts\Activate
 python -m pip install "fastapi[standard]"
 ```
-
-> If PowerShell blocks activation, run the lesson with the interpreter at `.venv\Scripts\python.exe`, or use the activation command for your shell.
 
 ### 4. Follow the path
 
@@ -86,12 +84,7 @@ FASTAPI/
 │   ├── L6/                # Nested models and validation
 │   ├── L7/                # CRUD Todo API
 │   └── L8/                # Combined path, query, and body parameters
-├── Module_2/
-│   ├── L1/                # Response models
-│   ├── L2/                # Status codes and HTTPException
-│   └── L3/                # Custom exceptions and global handlers
 ├── README.md              # Quick course overview
-└── COURSE_GUIDE.md        # Detailed course home
 ```
 
 Each lesson folder contains the runnable Python example. Lesson notes live beside the example so that the code and explanation stay together.
@@ -110,7 +103,7 @@ Open <http://127.0.0.1:8000/docs> to use Swagger UI. Stop the server with `Ctrl+
 ## Progress checklist
 
 - [x] Module 1 — Foundations
-- [ ] Module 2 — API design (in progress)
+- [ ] Module 2 — API design
 - [ ] Module 3 — Persistence
 - [ ] Module 4 — Authentication
 - [ ] Module 5 — Production APIs
@@ -119,14 +112,3 @@ Open <http://127.0.0.1:8000/docs> to use Swagger UI. Stop the server with `Ctrl+
 ## Course standards
 
 Examples favour clarity over cleverness. As the course advances, examples will evolve toward production practices such as typed response models, explicit HTTP errors, tests, environment-based configuration, and a database. Earlier lessons intentionally keep infrastructure small so the underlying FastAPI concepts remain visible.
-
-## Contributing and suggesting lessons
-
-Found a broken example or have an idea for a future module? Open an issue with:
-
-1. the lesson or file;
-2. the command you ran;
-3. the expected and actual behaviour;
-4. a suggested improvement, if you have one.
-
-Small improvements to explanations and exercises are welcome.
