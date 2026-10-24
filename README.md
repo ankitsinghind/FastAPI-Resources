@@ -20,8 +20,8 @@ start simple and become more structured as the course progresses.
 ### Setup
 
 ```powershell
-git clone https://github.com/ankitsinghind/FASTAPI.git
-cd FASTAPI
+git clone https://github.com/ankitsinghind/FastAPI-Resources.git
+cd FASTAPI-Resources
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 python -m pip install "fastapi[standard]"
