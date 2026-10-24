@@ -1,4 +1,3 @@
-<<<<<<< module_1
 # FastAPI Course
 
 > Learn to build clear, validated Python APIs with FastAPI, one practical lesson at a time.
@@ -112,5 +111,3 @@ If you find a broken example or have an idea for a lesson, open an issue with
 the lesson or file, the command you ran, the expected behaviour, and the
 actual behaviour. Improvements to explanations and exercises are welcome.
 =======
-
->>>>>>> main
