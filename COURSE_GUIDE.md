@@ -20,15 +20,15 @@ This repository is a structured FastAPI course. Each module introduces one layer
 ### 2. Clone and enter the course
 
 ```powershell
-https://github.com/ankitsinghind/.git
+git clone https://github.com/ankitsinghind/FastAPI-Resources.git
 cd FastAPI-Resources
 ```
 
 ### 3. Create an environment and install FastAPI
 
 ```powershell
-python -m venv .venv
-.venv\Scripts\Activate
+python -m venv venv
+venv\Scripts\activate
 python -m pip install "fastapi[standard]"
 ```
 
