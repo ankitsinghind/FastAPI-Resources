@@ -104,10 +104,3 @@ FASTAPI/
 ├── COURSE_GUIDE.md        # Detailed course home and standards
 └── README.md              # Quick start and course overview
 ```
-
-## Contributing
-
-If you find a broken example or have an idea for a lesson, open an issue with
-the lesson or file, the command you ran, the expected behaviour, and the
-actual behaviour. Improvements to explanations and exercises are welcome.
-=======
